@@ -1,0 +1,13 @@
+a="checkmate"
+b=list(a)
+print(b)
+
+def swap(list,pos1,pos2,pos3):
+    list[pos1],list[pos2],list[pos3]=list[pos3],list[pos1],list[pos2]
+    return list
+c=swap(b,1,4,7)
+print(b)
+
+word = " "
+d=word.join(c)
+print(d)

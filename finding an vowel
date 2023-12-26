@@ -1,0 +1,15 @@
+a=(input("Enter any word"))
+x= list(a)
+print(x)
+
+vowel=["a","e","i","o","u"]
+def check_vowel(word): 
+    count = 0
+    for i in x:
+        if i in vowel:
+            print(i) 
+            count = count + 1
+            
+    print(count)
+check_vowel(x) 
+

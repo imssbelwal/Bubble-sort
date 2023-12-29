@@ -1,0 +1,261 @@
+#       1.  QUESTIONS RELATED TO (TAKING INPUT FROM USER)
+
+# taking input from user
+name = input("what is your name ? ")
+print("welcome", name)
+     
+
+what is your name ? Amit Sharma
+welcome Amit Sharma
+
+
+# program to add inputs
+sub1 = int(input("mark sub1: "))
+sub2 = int(input("mark sub2: "))
+total = sub1 + sub2
+print("The total mark is: ", total)
+     
+
+mark sub1: 3
+mark sub2: 2
+The total mark is:  5
+
+
+# AREA OF TRIANGLE
+
+b = float(input("enter base: "))
+h = float(input("enter height: "))
+area = 1/2 * b * h
+print(area)
+     
+
+# area of triangle (if perimeter is given)
+
+a = float(input("enter length of 1st side: "))   # 3
+b = float(input("enter length of 2nd side: "))   # 4
+c = float(input("enter length of 3rd side: "))   # 5
+
+# calculate semi-perimeter
+s = (a+b+c)/2
+# calculate Area
+area = (s*(s-a) * (s-b) * (s-c)) ** 0.5
+print("\nArea of the triangle is : ", area)
+     
+
+#         2. QUESTIONS RELATED TO  (IF ELSE CODE)
+
+
+# WRITE A PYTHON PROGRAM TO TELL THE TEMPERATURE BY INPUT
+
+temp = int(input("enter any values"))
+if temp > 30:
+    print("it's a hot day")
+elif temp > 25:
+    print("it's a pleasant day")
+elif temp > 25:
+    print("it's a cold day")
+else:
+    print("it's a chilly day")
+print("it's a beautiful day")
+     
+
+# GRADE QUESTION
+# MAKE A PYTHON PROGRAM USING IF ELSE TO TELL THE GRADES ACCORDING TO THE PERCENTAGE OF MARKS. (USE INPUT FUNCTION)
+
+
+# calculate percentage
+a = float(input("marks a: "))
+b = float(input("marks b: "))
+c = float(input("marks c: "))
+d = float(input("marks d: "))
+e = float(input("marks e: "))
+
+percentage = (a+b+c+d+e)/500*100
+print(f"The percentage is: {percentage} %")
+
+# input percentage
+percentage = float(input("enter marks in percentage: "))
+if percentage > 95:
+    print("A+")
+elif percentage > 90:
+    print("A")
+elif percentage > 80:
+    print("B+")
+elif percentage > 70:
+    print("B")
+elif percentage > 60:
+    print("C+")
+elif percentage > 50:
+    print("C")
+elif percentage > 40:
+    print("D+")
+elif percentage > 33:
+    print("D")
+else:
+    print("F")
+     
+
+# CALCULATE GROSS SALARY OF A PERSON CONSIDERING THE FOLLOWING INFORMATION.
+basic = int(input("what is basic: "))
+hra = 0.20 * basic
+da = 0.50 * basic
+pf = 0.11 * basic
+print(hra)
+print(da)
+print(pf)
+if basic > 10000:
+    allowance = 1700
+elif basic > 5000:
+    allowance = 15000
+else:
+    allowance = 1300
+print("The allowance is: ", allowance)
+
+gs = basic + hra + da + allowance - pf
+print("The gross salary is :" , gs)
+     
+
+#                 3. python project to build a calculator
+#Let’s build a Calculator
+#Our Calculator
+first = input("Enter first number : ")
+second = input("Enter second number : ")
+first = int(first)
+second = int(second)
+print("----press keys for operator (+,-,*,/,%)----------")
+operator = input("Enter operator : ")
+if operator == "+":
+    print(first + second)
+elif operator == "-":
+    print(first - second)
+elif operator == "*":
+    print(first * second)
+elif operator == "/":
+    print(first / second)
+elif operator == "%":
+    print(first % second)
+else:
+    print("Invalid Operation")
+     
+
+#               4. BELOW QUESTIONS RELATED TO  (DEF FUNCTIONS)
+
+# write program to print "HELLO WORLD" using def function.
+
+def myfunction():
+    print("Hello World")
+myfunction()
+     
+
+# WRITE A PYTHON PROGRAM TO PRINT HAPPY BIRTHDAY WISH 3 TIMES USING DEF FUNCTION.
+
+def myfunction():
+    print("Happy birday to you !may god bless you !Happy birthday to you !")
+myfunction()
+myfunction()
+myfunction()
+     
+
+# addition of two number :
+first = int(input("enter 1st no. :"))
+second = int(input("enter 2nd no. :"))
+sum = first + second
+print("The sum is :" ,sum)
+
+     
+
+a = 2
+b = 3
+print(a+b)
+     
+
+num1 = 2
+num2 = 3
+sum = num1 + num2
+print("sum of two numbers is : ", sum)
+     
+
+num1 = 2
+num2 = 3
+multiplication = num1 * num2
+print("multipication of two numbers is : ", multiplication)
+     
+
+num1 = 6
+num2 = 3
+division = num1 / num2
+print("division of two numbers is : ", division)
+     
+
+num1 = 2
+num2 = 3
+sub = num1 - num2
+print("sub of two numbers is : ", sub)
+     
+
+num1 = 10
+num2 = 3
+modulus = num1 % num2
+print("modulus of two numbers is : ", modulus)
+     
+
+num1 = 23
+num2 = 3
+floor = num1 // num2
+print("floor of two numbers is :" , floor)
+
+     
+
+# modulus - for remainder
+# floor operator - for no decimal
+     
+
+#see notebook
+     
+
+# que 1
+a = 2
+b= 3
+if a > b:
+    print("a is greater than b !")
+else:
+    print("b is greater than a !")
+     
+
+# ques 2 elif a==b
+     
+
+a = 10
+b = 10
+if a>b:
+    print("a is greater than b !")
+elif a==b:
+    print("a is equal to b !")
+else:
+    print("b is greater than a ! ")
+     
+
+# ques 3
+     
+
+a = 10
+b = 5
+if a
+
+
+# quest write a program to check weather the  given no. is even or odd:
+     
+
+a = 3
+if (a%2)==0:
+    print("a is even")
+else:
+    print("a is odd")
+
+     
+
+a = 36
+if (a%2)==0:
+    print("a is even")
+else:
+    print("a is odd ")
